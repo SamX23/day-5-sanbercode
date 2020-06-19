@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous"> -->
+    <style>
+        .form input, textarea {
+            width:250px
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="header">
+            <h1>Hello Bejo!</h1>
+            <h3>Welcome to Cat World!</h3>
+            <p>To order my food, please fill the form below.</p>
+        </div>
+        <div>
+            <form class="form">
+                <label for="name">Name</label>
+                <br>
+                <input type="text" name="name" id="" placeholder="name..">
+                <br>
+                <label for="date">Delivery Date</label>
+                <br>
+                <input type="date" name="date" id="date">
+                <br>
+                <label for="address">Address</label>
+                <br>
+                <textarea name="address" id="" rows="2"></textarea>
+                <br>
+                <label for="quantity">Quantity</label>
+                <br>
+                <input type="number" id="quantity" name="quantity" step="1" placeholder="quantity..">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
